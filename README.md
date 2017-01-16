@@ -11,7 +11,7 @@ PCB for drive circuitry and Gate Drive Transfomer, for driving IGBT half-bridge 
 - Note that the regulator for the "12V" net is actually a 5V output part - anything in the range of 5V-12V should work OK.
 
 Note: changes planned for next revision:
-- Likely to use RS485 for gate drive signal input from RJ45 for increased noise immunity.
-- Will add power status LED
+- Use RS485 for gate drive signal input from RJ45 for increased noise immunity.
+- Add power status LED
 - "12V" to be renamed to "5V", and supply also used for RS485 receiver
 - Use switchmode DC/DC on the PCB rather than in a module
