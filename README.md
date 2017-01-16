@@ -8,7 +8,9 @@ PCB for drive circuitry and Gate Drive Transfomer, for driving IGBT half-bridge 
   - Will supply pictures once I have built the PCB and wound the transformers
 - To drive extra half bridges a second PCB can be "slaved" to the first using the expansion connection. An output variant has been created named "SLAVE" to show this
 - PDF schematics, 3D info, BoMs etc are located within the "Reference Outputs" directory
+- Note that the regulator for the "12V" net is actually a 5V output part - anything in the range of 5V-12V should be OK.
 
-Note: for next revision:
+Note: changes planned for next revision:
 - Likely to use RS485 for gate drive signal input from RJ45 for increased noise immunity.
 - Will add power status LED
+- "12V" to be renamed to "5V", and supply also used for RS485 receiver
