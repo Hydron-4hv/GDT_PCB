@@ -9,4 +9,6 @@ PCB for drive circuitry and Gate Drive Transfomer, for driving IGBT half-bridge 
 - To drive extra half bridges a second PCB can be "slaved" to the first using the expansion connection. An output variant has been created named "SLAVE" to show this
 - PDF schematics, 3D info, BoMs etc are located within the "Reference Outputs" directory
 
-Note: next revision is likely to use RS485 for gate drive signal input from RJ45 for increased noise immunity.
+Note: for next revision:
+- Likely to use RS485 for gate drive signal input from RJ45 for increased noise immunity.
+- Will add power status LED
