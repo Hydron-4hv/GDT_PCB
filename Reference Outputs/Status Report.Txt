@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:53:40 On 16/01/2017
+
+Output: BoM CSV
+Type  : BOM
+From  : Variant [SLAVE] of Project [QCW_GDT_PCB.PrjPcb]
+   Generated File[BoM CSV-QCW_GDT_PCB(SLAVE).csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:53:43 On 16/01/2017

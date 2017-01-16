@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [QCW_GDT_PCB.PcbDoc]
+   Generated File[QCW_GDT_PCB-RoundHoles.TXT]
+   Generated File[QCW_GDT_PCB-SlotHoles.TXT]
+   Generated File[QCW_GDT_PCB.LDP]
+   Generated File[QCW_GDT_PCB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 03:23:10 On 15/01/2017
