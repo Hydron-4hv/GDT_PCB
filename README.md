@@ -9,9 +9,12 @@ PCB for drive circuitry and Gate Drive Transfomer, for driving IGBT half-bridge 
 - To drive extra half bridges a second PCB can be "slaved" to the first using the expansion connection. An output variant has been created named "SLAVE" to show this
 - PDF schematics, 3D info, BoMs etc are located within the "Reference Outputs" directory
 - Note that the regulator for the "12V" net is actually a 5V output part - anything in the range of 5V-12V should work OK.
+- The 24V input can be lowered if the desired gate drive voltage to the IGBTs is less than this.
+- The 3x 1000uF 25V capacitors are unnecessarily large for low pulse length applications (e.g. standard non-QCW DRSSTC). These should be replaced by smaller, 35V rated parts if the board is not used in a CW or QCW application.
 
 Note: changes planned for next revision:
-- Use RS485 for gate drive signal input from RJ45 for increased noise immunity.
+- Use RS485 for gate drive signal input from RJ45 for increased noise immunity. (High priority)
 - Add power status LED
 - "12V" to be renamed to "5V", and supply also used for RS485 receiver
 - Use switchmode DC/DC on the PCB rather than in a module
+- Capacitor voltage specifications in "Gate Driver" sub section to be increased to 35/50V from 25V. Parts are available in the same package with increased rating.
