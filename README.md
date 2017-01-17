@@ -1,6 +1,10 @@
 # GDT_PCB
 PCB for drive circuitry and Gate Drive Transfomer, for driving IGBT half-bridge PCBAs in Tesla Coil application
 
+# WARNING:
+The creepage/clearance distances on this PCB between the bridge voltages (i.e. those present of the output of the GDT) and the low voltage circuitry is not large (1mm), and thus nothing connected to this PCB (including the driver controller connected via the RJ45 connectors) should be touched while mains voltage is applied. Unless an isolation tranformer is used, everything except mains protective earth should be treated as live.
+
+Notes:
 - To be used with the PCB from the either the "IGBT_half_bridge" or "QCW_half_bridge_PCB" repos, 2 off for full bridge setup, 4 for dual full-bridge.
 - A hand wound gate drive transformer is required.
   - I am planning to wind one with RG-174 co-ax (for high coupling), with primary side being the shield, secondary being the centre conductor.
@@ -13,6 +17,7 @@ PCB for drive circuitry and Gate Drive Transfomer, for driving IGBT half-bridge 
 - The 3x 1000uF 25V capacitors are unnecessarily large for low pulse length applications (e.g. standard non-QCW DRSSTC). These should be replaced by smaller, 35V rated parts if the board is not used in a CW or QCW application.
 
 Note: changes planned for next revision:
+- Improve creepage distance as possible. Isolation slots.
 - Use RS485 for gate drive signal input from RJ45 for increased noise immunity. (High priority)
 - Add power status LED
 - "12V" to be renamed to "5V", and supply also used for RS485 receiver
