@@ -18,6 +18,7 @@ Notes:
 
 Note: changes planned for next revision:
 - Improve creepage distance as possible. Isolation slots.
+- Potential to add transformer isolation for CT input from ribbon cables
 - Use RS485 for gate drive signal input from RJ45 for increased noise immunity. (High priority)
 - Add power status LED
 - "12V" to be renamed to "5V", and supply also used for RS485 receiver
