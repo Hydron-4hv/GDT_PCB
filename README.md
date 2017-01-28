@@ -24,3 +24,5 @@ Note: changes planned for next revision:
 - "12V" to be renamed to "5V", and supply also used for RS485 receiver
 - Use switchmode DC/DC on the PCB rather than in a module
 - Capacitor voltage specifications in "Gate Driver" sub section to be increased to 35/50V from 25V. Parts are available in the same package with increased rating.
+- Fix DC jack footprint (add locating hole)
+- Potential addition of fan/temperature control/measurement
