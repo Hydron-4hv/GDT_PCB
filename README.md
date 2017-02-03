@@ -26,3 +26,4 @@ Note: changes planned for next revision:
 - Capacitor voltage specifications in "Gate Driver" sub section to be increased to 35/50V from 25V. Parts are available in the same package with increased rating.
 - Fix DC jack footprint (add locating hole)
 - Potential addition of fan/temperature control/measurement
+- Change TVS footprints for fitting lower capacitance parts (e.g. SOT-23)
