@@ -27,3 +27,4 @@ Note: changes planned for next revision:
 - Fix DC jack footprint (add locating hole)
 - Potential addition of fan/temperature control/measurement
 - Change TVS footprints for fitting lower capacitance parts (e.g. SOT-23)
+- Fix major pinout problem for drive FETs (CAD software decided to flip component for no reason)
